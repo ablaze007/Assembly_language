@@ -1,0 +1,3 @@
+as -o program.o program.s 	//assemble the given file
+ld -o program program.o		//link the file 
+./program 					//execute the program 
